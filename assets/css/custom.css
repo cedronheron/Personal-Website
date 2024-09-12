@@ -1,0 +1,63 @@
+/*CERTIFICATE SECTION*/
+.certificates-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .certificate-card {
+    width: 500px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .certificate-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .certificate-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .card-title, .card-text {
+    text-align: center;
+    margin: 10px 0;
+  }
+  /*ABOUT SECTION*/
+  .about .row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .about img {
+    background-color: #0ea2eda3;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about .content {
+    flex: 1;
+  }
+
+/*CV button*/
+  .btn-primary {
+    background-color: #0ea2eda3;
+    border-color: #0ea2eda3;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0ea2ed;
+    border-color: #0ea2ed;
+    color: white;
+  }
+
+  /*CONTACT SECTION*/
+  
+  
+  
+  
