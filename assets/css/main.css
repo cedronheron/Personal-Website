@@ -645,7 +645,7 @@ section,
 /*--------------------------------------------------------------
 # Global Section Titles
 --------------------------------------------------------------*/
-/*.section-title {
+.section-title {
   padding-bottom: 60px;
   position: relative;
 }
@@ -679,7 +679,7 @@ section,
   font-weight: 700;
   text-transform: uppercase;
   font-family: var(--heading-font);
-}*/
+}
 
 /*--------------------------------------------------------------
 # Hero Section
