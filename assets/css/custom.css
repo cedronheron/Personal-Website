@@ -132,6 +132,43 @@
 .skills .icon-box:hover p {
   color: #fff;
 }
+/*PORTFOLIO*/
+.portfolio-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*HOBBIES & INTERESTS*/
+.hobby-card {
+  display: flex; /* Use flexbox for centering content */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  height: 250px; /* Set a fixed height */
+  background-color: #303538a3; /* Light background for cards */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Spacing inside cards */
+  text-align: center; /* Center align text */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s; /* Smooth scaling effect */
+}
+
+.hobby-card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.hobby-icon {
+  font-size: 40px; /* Size for the icons */
+  color: #0ea2eda3; /* Icon color */
+}
+
+h5 {
+  margin-top: 15px; /* Spacing above headings */
+  font-size: 1.2em; /* Slightly larger font size */
+}
+
+
+
  
   
   
