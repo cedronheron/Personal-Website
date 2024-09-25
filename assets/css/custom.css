@@ -217,6 +217,55 @@
   color: #fff;
 }
 
+/*----TOOLS-----*/
+.favorite-tools {
+  padding: 50px 0;
+}
+
+.tools-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tool-item {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tool-item:hover {
+  transform: scale(1.1);
+}
+
+.tool-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: opacity 0.3s;
+}
+
+.tool-item:hover .tool-icon {
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
 
 
 
